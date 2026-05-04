@@ -2,11 +2,11 @@ pipeline {
     agent any
 
     stages {
-        stage('checkout') {
-            steps {
-                git 'https://github.com/guruteja1999/Hotstar-App.git'
-            }
-        }
+stage('Checkout') {
+    steps {
+        checkout scm
+    }
+}
 
         stage('build') {
             steps {
