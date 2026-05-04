@@ -31,7 +31,8 @@ stage('Checkout') {
                 deploy adapters: [
                     tomcat9(
                         credentialsId: '6b6a87df-6251-491f-a569-4fb951689dd9',
-                        path: 'http://13.60.94.86:8080'
+                        path: '',
+                        url: 'http://13.60.94.86:8080'
                     )
                 ],
                 contextPath: 'hotstar-application',
