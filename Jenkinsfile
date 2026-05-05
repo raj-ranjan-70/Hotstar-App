@@ -32,7 +32,7 @@ stage('Checkout') {
                     tomcat9(
                         credentialsId: '6b6a87df-6251-491f-a569-4fb951689dd9',
                         path: '',
-                        url: 'http://13.60.94.86:8080'
+                        url: 'http://16.171.175.116:8080'
                     )
                 ],
                 contextPath: 'hotstar-application',
